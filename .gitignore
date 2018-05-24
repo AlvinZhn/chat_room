@@ -1,0 +1,16 @@
+.idea
+__pycache__
+flask_session
+demo_log.txt
+Cache
+/crawler/library/geckodriver.exe
+/crawler/library/chromedriver.exe
+/.vscode/
+/Vagrantfile
+/ubuntu.box
+/ubuntu.json
+/ubuntu-xenial-16.04-cloudimg-console.log
+/.vagrant/
+config.py
+*_default.png
+*.bac

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="shortcut icon" href="/static/img/icon.png">
+    <link href="/static/css/fonts.css" rel="stylesheet">
+    <link href="/static/css/min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/static/js/ajax.js"></script>
+
+    <title>Chat Room</title>
+</head>
+<body>
+<div id="root" class="page">
+    <div class="guest">
+        <div class="section">
+            <div class="container filterable reversed">
+                <div class="columns">
+                    <div class="column is-9 primary pr-3-desktop pl-3-desktop">
+                        <h2 id="id-rooms-title" class="catalog-title">
+                            Chat Room
+                        </h2>
+                        <div class="bar is-small mb-1">
+                            <div class="container">
+                                <nav class="level">
+                                    <ul class="level-left">
+                                        <li class="level-item room-list">
+                                            <a href="#main" class="room main-room bar-link">Main</a>
+                                        </li>
+                                        <li class="level-item room-list">
+                                            <a href="#game" class="room game-room bar-link">Game</a>
+                                        </li>
+                                        <li class="level-item room-list">
+                                            <a href="#else" class="room else-room bar-link">Else</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+
+                        <div class="chat_panel">
+                            <textarea id="id_chat_area" class="textarea" rows="13" disabled></textarea>
+                            <input id="id_input_text" class="input" placeholder="Anything to say?">
+                        </div>
+                    </div>
+                    <aside class="forum-sidebar menu column is-3 pl-3-desktop">
+                        <p class="menu-label">
+                            Current User
+                        </p>
+                        <ul class="menu-list current-user">
+
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.bootcss.com/socket.io/2.0.3/socket.io.js"></script>
+<script src="/static/js/chat.js"></script>
+
+</body>
+</html>

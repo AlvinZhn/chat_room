@@ -1,0 +1,5 @@
+flask
+jinja2
+flask_session
+pillow
+flask-socketio
