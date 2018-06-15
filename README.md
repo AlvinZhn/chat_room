@@ -12,4 +12,4 @@
 
 ### Demo: 
 
-![avatar](https://wx1.sinaimg.cn/large/927e2755gy1frrhxgd82ug22g217j4qp.gif)
+![gif](https://wx1.sinaimg.cn/large/927e2755gy1frrhxgd82ug22g217j4qp.gif)
